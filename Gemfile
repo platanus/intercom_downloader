@@ -53,7 +53,7 @@ group :development, :test do
   gem 'rspec-nc', require: false
   gem 'rspec-rails'
   gem 'rubocop', '~> 0.82.0'
-  gem 'rubocop-performance'
+  gem 'rubocop-performance', '1.6.1'
   gem 'rubocop-rails'
   gem 'rubocop-rspec'
 end

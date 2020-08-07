@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/SoftwareBrothers/active_skin.git
+  remote: https://github.com/SoftwareBrothers/active_skin.git
   revision: ce714442d2ae84705a652316610582dd28a33e01
   specs:
     active_skin (0.0.12)
@@ -334,8 +334,8 @@ GEM
       rexml
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-performance (1.7.1)
-      rubocop (>= 0.82.0)
+    rubocop-performance (1.6.1)
+      rubocop (>= 0.71.0)
     rubocop-rails (2.6.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
@@ -443,7 +443,7 @@ DEPENDENCIES
   rspec-rails
   rspec_junit_formatter (= 0.2.2)
   rubocop (~> 0.82.0)
-  rubocop-performance
+  rubocop-performance (= 1.6.1)
   rubocop-rails
   rubocop-rspec
   sass-rails (>= 6)
@@ -457,4 +457,4 @@ DEPENDENCIES
   webpacker (~> 4.0)
 
 BUNDLED WITH
-   1.17.2
+   2.1.2

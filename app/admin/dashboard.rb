@@ -11,7 +11,7 @@ ActiveAdmin.register_page "Dashboard" do
   end
 
   content do
-    form action: "admin/dashboard/trigger", method: :post do |f|
+    form action: "dashboard/trigger", method: :post do |f|
       div "Token de intercom"
       f.input :intercom_token, type: :text, name: 'intercom_token'
       f.input :submit, type: :submit

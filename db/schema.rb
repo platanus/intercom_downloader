@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 2020_08_14_152634) do
   end
 
   create_table "intercom_downloads", force: :cascade do |t|
-    t.text "file_data"
+    t.text "file_data", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

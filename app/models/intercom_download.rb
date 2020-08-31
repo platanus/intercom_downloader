@@ -7,7 +7,7 @@ end
 # Table name: intercom_downloads
 #
 #  id         :bigint(8)        not null, primary key
-#  file_data  :text
+#  file_data  :text             not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #

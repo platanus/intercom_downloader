@@ -2,7 +2,7 @@ class DownloadDataJob < ApplicationJob
   queue_as :default
 
   def perform(intercom_token)
-    json = { some_key: 'some_value' }.to_json
+    json = IntercomService.new(token: intercom_token).download_conversations().to_json
     file = StringIO.new(json)
     IntercomDownload.create!(file: file)
   end

@@ -182,6 +182,7 @@ GEM
       has_scope (~> 0.6)
       railties (>= 5.0, < 6.1)
       responders (>= 2, < 4)
+    intercom (4.1.1)
     jaro_winkler (1.5.4)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
@@ -426,6 +427,7 @@ DEPENDENCIES
   faker
   guard-rspec
   heroku-stage
+  intercom
   jbuilder (~> 2.7)
   listen
   marcel (~> 0.3.3)
